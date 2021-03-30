@@ -1,4 +1,4 @@
-#Required Components
+# Required Components
 
 For use on an Adafruit BlueFruit Board
 https://www.adafruit.com/product/4333
