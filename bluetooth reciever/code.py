@@ -16,8 +16,8 @@ NUM_PIXELS = 10
 np = neopixel.NeoPixel(board.NEOPIXEL, NUM_PIXELS, brightness=0.1)
 next_pixel = 0
 
-
 while True:
+    # Advertise when not connected.
     ble.start_advertising(advertisement)
     while not ble.connected:
         pass
